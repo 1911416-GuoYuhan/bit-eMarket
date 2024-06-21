@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.inger.market.storage.StorageProperties",
+      "name": "storage",
+      "type": "com.inger.market.storage.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.inger.market.storage.StorageProperties",
+      "name": "storage.location",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.inger.market.storage.StorageProperties",
+      "name": "storage.source",
+      "type": "java.lang.String"
+    }
+  ]
+}

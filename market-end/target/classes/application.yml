@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /market
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/market?useSSL=false
+      username: root
+      password: 123456
+
+storage:
+  location: upload-dir
+  source: E:/Tools/nginx-1.26.1/html/dist/img/%s.jpg
